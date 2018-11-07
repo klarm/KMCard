@@ -47,7 +47,7 @@ MIT licensed. Please refer to the LICENSE file for detailed information.
 - 支持适配协议标准数据结构和结构化非标准数据
 
 # 样例
-demo公共包含下列样例
+demo公共包含下列样例：  
  <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
 
 # 怎样使用
