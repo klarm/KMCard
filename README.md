@@ -60,6 +60,26 @@ done!
   + Step 2：触发RVCardView的reload
   
 - 直接使用UI组件或其组合 
+  + Step 0：若直接使用UI组件，调用RVSkinParser的下列方法：
+  ```objc
+
++ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher;
+
++ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher completionBlock:(layoutCompletionBlock)completionBlock;
+
++ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher completionBlock:(layoutCompletionBlock)completionBlock config:(RVSkinConfig*)config;  
+
+```
+
+  + Step 1：若使用UI组件的组合，调用RVSkinAssembler的下列方法：
+  ```objc
+
++ (UIView *)buildAssembledRVSkins:(NSArray *)skinItems rootRect:(CGRect)frame pattern:(NSDictionary *)pattern dataArray:(NSArray *)skinDatas;
+
++ (UIView *)buildAssembledRVSkins:(NSArray *)skinItems rootRect:(CGRect)frame pattern:(NSDictionary *)pattern dataArray:(NSArray *)skinDatas refreshers:(NSArray *)refreshers;
+```
+  + Step 2：像普通View一样使用上述方法的返回的View
+  
 - 适配结构化任意结构数据列表
  <img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width ="40%"/>
  详细细节请参考demo
