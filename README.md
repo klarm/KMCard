@@ -12,7 +12,7 @@
 - Supports adaptation protocol-standard data structure and structured non-standard data.
 
 # Demo 
-the demo app contains
+the demo app contains the following:
 <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
 
 # How to Use
