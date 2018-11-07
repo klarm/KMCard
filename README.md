@@ -53,7 +53,8 @@ done!
  具体细节请参见Demo工程
 
 # 怎样使用
-有三种使用方式：
+有三种使用方式：  
+
 1、 整页使用RVCard
   + Step 0：将RVCardView嵌入页面
   + Step 1：设置RVCardView的PageData
