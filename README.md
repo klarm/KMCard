@@ -54,12 +54,12 @@ done!
 
 # 怎样使用
 有三种使用方式：
-- 整页使用RVCard
+1、 整页使用RVCard
   + Step 0：将RVCardView嵌入页面
   + Step 1：设置RVCardView的PageData
   + Step 2：触发RVCardView的reload
   
-- 直接使用UI组件或其组合 
+2、 直接使用UI组件或其组合 
   + Step 0：若直接使用UI组件，调用RVSkinParser的下列方法：
 	```obj-c
 	+ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher;
@@ -78,7 +78,7 @@ done!
 	
   + Step 2：像普通View一样使用上述方法的返回的View
   
-- 适配结构化任意结构数据列表
+3、 适配结构化任意结构数据列表
   + Step 0：业务方使用系列四个delegate：
     ```obj-c
 	typedef NSString*(^getSkin)(NSInteger idx);
