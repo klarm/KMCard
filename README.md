@@ -55,5 +55,5 @@ done!
 - 整页使用RVCard
 - 直接使用UI组件或其组合 
 - 适配结构化任意结构数据列表
- <img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width = "50%"/>
+ <img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width ="40%"/>
  详细细节请参考demo
