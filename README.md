@@ -35,7 +35,7 @@ done!
 done!
    
 # License
-[MIT]
+MIT licensed. Please refer to the LICENSE file for detailed information.
 
 ---
 # 简介
@@ -95,3 +95,6 @@ done!
   	typedef void(^SkinBinderBlock)(RVSkinBinderData *data, badgeAttacher attacher);
   	```  
 详细细节请参考demo
+
+# License
+MIT licensed. Please refer to the LICENSE file for detailed information.
