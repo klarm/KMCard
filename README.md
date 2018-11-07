@@ -64,9 +64,9 @@ done!
 	```obj-c
 	+ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher;
 
-	+ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher 	completionBlock:(layoutCompletionBlock)completionBlock;
+	+ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher completionBlock:(layoutCompletionBlock)completionBlock;
 
-	+ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher 		completionBlock:(layoutCompletionBlock)completionBlock config:(RVSkinConfig*)config;  
+	+ (UIView *)buildRVView:(NSString *)xmlFile rootRect:(CGRect)frame data:(id)data refresher:(SkinBinderBlock)refresher completionBlock:(layoutCompletionBlock)completionBlock config:(RVSkinConfig*)config;  
  	```
 
   + Step 1：若使用UI组件的组合，调用RVSkinAssembler的下列方法：
