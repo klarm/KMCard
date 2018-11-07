@@ -12,27 +12,24 @@
 - Supports adaptation protocol-standard data structure and structured non-standard data.
 
 # Demo
- <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
+<img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
 
 # How to Use
 
 - adoption as a whole page
-	- step 0:
-	- step 1:
-	- step 2:
-done!
+	- step 0: Add RVCardView to your page
+	- step 1: Set page data for RVCardView
+	- step 2: call reload of RVCardView
 
 - adoption as independent UI component or combination of them
-	- step 0:
-	- step 1:
-	- step 2:
-done!
+	- step 0: Call buildRVView of RVSkinParser when you use independent UI component
+	- step 1: Call buildAssembledRVSkins of RVSkinAssembler when you use combination of UI component
+	- step 2: Then the method above returns a common view, use it as usual
 
 - adoption for structured non-standard data
-	- step 0:
-	- step 1:
-	- step 2:
-done!
+	- step 0: Implement four delegates
+	- step 1: Implement a data binder method
+	- step 2: Register the binder for a certain layout skin
    
 # License
 MIT licensed. Please refer to the LICENSE file for detailed information.
