@@ -72,9 +72,10 @@ done!
   + Step 1：若使用UI组件的组合，调用RVSkinAssembler的下列方法：
 	```obj-c
 	+ (UIView *)buildAssembledRVSkins:(NSArray *)skinItems rootRect:(CGRect)frame pattern:(NSDictionary *)pattern dataArray:(NSArray *)skinDatas;
-
+	
 + (UIView *)buildAssembledRVSkins:(NSArray *)skinItems rootRect:(CGRect)frame pattern:(NSDictionary *)pattern dataArray:(NSArray *)skinDatas refreshers:(NSArray *)refreshers;
  	```
+	
   + Step 2：像普通View一样使用上述方法的返回的View
   
 - 适配结构化任意结构数据列表
@@ -89,6 +90,8 @@ done!
   	```obj-c
   	typedef void(^SkinBinderBlock)(RVSkinBinderData *data, badgeAttacher attacher);
   	```
-整体如下图所示：
+	
+整体如下图所示： 
        <img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width ="40%"/>
+       
 详细细节请参考demo
