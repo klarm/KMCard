@@ -92,6 +92,7 @@ done!
   	```
 	
 整体如下图所示： 
+
        <img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width ="40%"/>
        
 详细细节请参考demo
