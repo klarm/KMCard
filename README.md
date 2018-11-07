@@ -1,5 +1,5 @@
 <p align="center" >
-  <img src="https://github.com/klarm/KMCard/blob/master/logo.png" alt="RVCard" title="RVCard">
+  <img src="https://github.com/klarm/KMCard/blob/master/logo.png">
 </p>
 
 # Introduction
