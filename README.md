@@ -1,3 +1,7 @@
+<p align="center" >
+  <img src="https://github.com/iqiyi/LiteApp/blob/master/Images/logo.png?raw=true" alt="LiteApp" title="LiteApp">
+</p>
+
 # Introduction
 **RVCard** is a lightweight, high-performance solution for creating dynamic UI components. It supports building reusable UI components by writing XML layouts and supports flexible combinations between UI components. There are various forms of embedding RVCard in your existing implementation. See the **Demo** and **How to Start** for more detail.
 
