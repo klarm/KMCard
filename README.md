@@ -1,5 +1,4 @@
-**RVCard** is a lightweight solution for dynamically creating UI components.  
-It describes the component through an XML layout, and supports various forms of flexible embedding in your existing implementation.
+**RVCard** is a lightweight solution for dynamically creating UI components. It describes the component through an XML layout, and supports various forms of embedding in your existing implementation.
 
 
 # Introduction
@@ -14,7 +13,6 @@ It describes the component through an XML layout, and supports various forms of 
 
 # Demo
 
-The 
 
 # How to Start
 
