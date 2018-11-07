@@ -1,5 +1,3 @@
-# KMCard
-一个轻量级动态创建UI组件的方案，通过XML布局描述组件，支持各种形式灵活嵌入你的现有实现
 **RVCard** is a lightweight solution for dynamically creating UI components.  
 It describes the component through an XML layout, and supports various forms of flexible embedding in your existing implementation.
 
