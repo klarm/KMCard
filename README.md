@@ -73,7 +73,7 @@ done!
 	```obj-c
 	+ (UIView *)buildAssembledRVSkins:(NSArray *)skinItems rootRect:(CGRect)frame pattern:(NSDictionary *)pattern dataArray:(NSArray *)skinDatas;
 	
-+ (UIView *)buildAssembledRVSkins:(NSArray *)skinItems rootRect:(CGRect)frame pattern:(NSDictionary *)pattern dataArray:(NSArray *)skinDatas refreshers:(NSArray *)refreshers;
+	+ (UIView *)buildAssembledRVSkins:(NSArray *)skinItems rootRect:(CGRect)frame pattern:(NSDictionary *)pattern dataArray:(NSArray *)skinDatas refreshers:(NSArray *)refreshers;
  	```
 	
   + Step 2：像普通View一样使用上述方法的返回的View
