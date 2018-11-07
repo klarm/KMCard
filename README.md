@@ -92,8 +92,5 @@ done!
   + Step 1：业务方实现并注入binder：
   	```obj-c
   	typedef void(^SkinBinderBlock)(RVSkinBinderData *data, badgeAttacher attacher);
-  	```
- + 整体如下图所示：  
- 	<img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width ="60%"/>
-       
+  	```  
 详细细节请参考demo
