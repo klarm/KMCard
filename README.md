@@ -2,7 +2,6 @@
 
 
 # Introduction
-
 **RVCard** is a lightweight, high-performance solution for creating dynamic UI components. It supports building reusable UI components by writing XML layouts and supports flexible combinations between UI components. See the **Demos**  for more detail.
 
 # Main Features
