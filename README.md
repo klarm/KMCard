@@ -11,7 +11,8 @@
 - Supports custom tags and attributes in XML layouts.
 - Supports adaptation protocol-standard data structure and structured non-standard data.
 
-# Demo
+# Demo 
+the demo app contains
 <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
 
 # How to Use
@@ -46,8 +47,8 @@ MIT licensed. Please refer to the LICENSE file for detailed information.
 - 支持适配协议标准数据结构和结构化非标准数据
 
 # 样例
+demo公共包含下列样例
  <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
- 具体细节请参见Demo工程
 
 # 怎样使用
 有三种使用方式：  
