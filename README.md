@@ -78,5 +78,17 @@ done!
   + Step 2：像普通View一样使用上述方法的返回的View
   
 - 适配结构化任意结构数据列表
- <img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width ="40%"/>
- 详细细节请参考demo
+  + Step 0：业务方使用系列四个delegate：
+    ```obj-c
+	typedef NSString*(^getSkin)(NSInteger idx);
+	typedef NSDictionary*(^getPattern)();
+	typedef id(^getItemData)(NSInteger idx);
+	typedef NSInteger(^getItemCount)();
+     ```
+  + Step 1：业务方实现并注入binder：
+  ```obj-c
+  	typedef void(^SkinBinderBlock)(RVSkinBinderData *data, badgeAttacher attacher);
+  ```
+整体如下图所示：
+       <img src="https://github.com/klarm/KMCard/blob/master/dataBinder.png" width ="40%"/>
+详细细节请参考demo
