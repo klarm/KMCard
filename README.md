@@ -49,10 +49,9 @@ done!
 
 # 样例
  <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
-# 新手介绍
 
 # 怎样使用
-## 有三种使用方式：
+有三种使用方式：
 - 整页使用RVCard
 - 直接使用UI组件或其组合 
 - 适配结构化任意结构数据列表
