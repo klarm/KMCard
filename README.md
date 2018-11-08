@@ -38,10 +38,11 @@ the demo app contains the following:
 	
 	typedef NSInteger(^getItemCount)();
      	```
-	- step 1: Implement a data binder method
+	- step 1: Implement a data binder method 
 	```obj-c
   	typedef void(^SkinBinderBlock)(RVSkinBinderData *data, badgeAttacher attacher);
-  	```  
+  	``` 
+	
 	- step 2: Register the binder for a certain layout
    
 # License
