@@ -16,7 +16,7 @@ the demo app contains the following:
 <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
 
 # How to Use
-
+There are three ways to use RVCard in your project:
 - adoption as a whole page
 	- step 0: Add RVCardView to your page
 	- step 1: Set page data for RVCardView
