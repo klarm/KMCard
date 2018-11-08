@@ -3,23 +3,23 @@
 </p>
 
 # 简介
-**RVCard** 是一个轻量级高性能动态UI组件方案，它支持通过编写XML布局构建可复用的UI组件，并且支持UI组件之间的各种灵活组合。在使用方式上，可以通过各种形式灵活嵌入你的现有实现。具体案例请参见demo。
+**RVCard** 是一种轻量级高性能动态UI组件方案，它支持通过编写XML布局构建可复用的UI组件，并且支持UI组件之间的各种灵活组合。在使用方式上，**RVCard** 可以通过各种形式灵活嵌入你的现有实现。具体案例请参见demo。
 
 # 主要特性
 - 支持通过编写XML布局描述UI组件，支持标准flex排版
 - 支持布局之间的各种灵活组合
-- 布局排版和组合支持异步执行，提高UI流畅性
+- 布局的排版和组合支持异步执行，提高UI流畅性
 - 支持自定义tag及属性，方便业务方灵活扩展并隔离代码
 - 支持同时适配协议标准数据和结构化非标准数据
 
 # 样例
-demo公共包含下列样例：  
+demo工程中包含下列样例：  
  <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
 
 # 怎样使用
 有三种使用方式：  
 
-- 整页使用RVCard
+- 整页使用RVCard方案
   + Step 0：将RVCardView嵌入页面
   + Step 1：设置RVCardView的PageData
   + Step 2：触发RVCardView的reload
@@ -43,8 +43,8 @@ demo公共包含下列样例：
 	
   + Step 2：像普通View一样使用上述方法的返回的View
   
-- 适配结构化任意结构数据列表
-  + Step 0：业务方使用系列四个delegate：
+- 适配结构化的任意数据列表
+  + Step 0：业务方实现下列四个delegate：
     ```obj-c
 	typedef NSString*(^getSkin)(NSInteger idx);
 	
@@ -54,11 +54,11 @@ demo公共包含下列样例：
 	
 	typedef NSInteger(^getItemCount)();
      ```
-  + Step 1：业务方实现并注入binder：
+  + Step 1：业务方实现并注册binder：
   	```obj-c
   	typedef void(^SkinBinderBlock)(RVSkinBinderData *data, badgeAttacher attacher);
   	```  
-详细细节请参考demo
+细节请参考demo工程
 
 # License
 Licensed under the [MIT](https://github.com/klarm/KMCard/blob/master/LICENSE) License.
