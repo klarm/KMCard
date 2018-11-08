@@ -61,4 +61,4 @@ demo公共包含下列样例：
 详细细节请参考demo
 
 # License
-MIT licensed. Please refer to the LICENSE file for detailed information.
+Licensed under the [MIT]([MIT](https://github.com/klarm/KMCard/blob/master/LICENSE)) License.
