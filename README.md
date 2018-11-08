@@ -28,22 +28,8 @@ There are three ways to use RVCard in your project:
 	- step 2: Then the method above returns a common view, use it as usual
 
 - adoption for structured non-standard data
-	- step 0: Implement the following four delegates
-	```obj-c
-	typedef NSString*(^getSkin)(NSInteger idx);
-	
-	typedef NSDictionary*(^getPattern)();
-	
-	typedef id(^getItemData)(NSInteger idx);
-	
-	typedef NSInteger(^getItemCount)();  
-	```  
-	
+	- step 0: Implement four delegates
 	- step 1: Implement a data binder method 
-	```obj-c
-  	typedef void(^SkinBinderBlock)(RVSkinBinderData *data, badgeAttacher attacher);
-  	```  
-	
 	- step 2: Register the binder for a certain layout
    
 # License
