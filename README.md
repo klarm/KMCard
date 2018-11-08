@@ -3,36 +3,36 @@
 </p>
 
 # Introduction
-**RVCard** is a lightweight, high-performance solution for creating dynamic UI components. It supports building reusable UI components by writing XML layouts and flexible combinations of UI components. There are various forms of embedding RVCard in your existing implementation. See the **Demo** and **How to Start** for more detail.  
+**RVCard** is a lightweight, high-performance solution for creating dynamic UI components. It supports building reusable UI components by writing XML layouts，and you can aslo build flexible combinations of them. There are various forms of embedding RVCard in your existing code. See the **Demo** and **How to Start** for more details.  
 
 [中文文档](/README_CN.md)
 
 # Main Features
-- Supports describing UI components by writing XML layouts with standard flex syntax.
-- layouts and combines UI components asynchronously，high-performance.
-- Supports custom tags and attributes in XML layouts.
-- Supports adaptation both protocol-standard data structure and structured non-standard data.
+- It supports building UI components by writing XML layouts with standard Flex syntax.
+- It layouts and combines UI components asynchronously for high performance.
+- It supports custom tags and attributes in XML layouts.
+- It supports the adaptation of both protocol-standard data and structured non-standard data.
 
 # Demo 
-the demo app contains the following:
+The demo app contains the following examples:
 <img src="https://github.com/klarm/KMCard/blob/master/demos.png"/>
 
 # How to Use
 There are three ways to use RVCard in your project:
-- adoption as a whole page
+- Use it as a whole page
 	- step 0: Add RVCardView to your page
 	- step 1: Set page data for RVCardView
 	- step 2: Call reload of RVCardView
 
-- adoption as independent UI component or combination of them
-	- step 0: Call buildRVView of RVSkinParser when you use independent UI component
-	- step 1: Call buildAssembledRVSkins of RVSkinAssembler when you use combination of UI component
+- Use it as an independent UI component or a combination of them
+	- step 0: Call buildRVView of RVSkinParser when you use it as an independent UI component
+	- step 1: Call buildAssembledRVSkins of RVSkinAssembler when you use it as a combination of UI components
 	- step 2: Then the method above returns a common view, use it as usual
 
-- adoption for structured non-standard data
+- Use it for structured non-standard data
 	- step 0: Implement four delegates
 	- step 1: Implement a data binder method 
-	- step 2: Register the binder for a certain layout
+	- step 2: Register the above binder for a certain layout
    
 # License
 Licensed under the [MIT](https://github.com/klarm/KMCard/blob/master/LICENSE) License.
