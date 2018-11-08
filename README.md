@@ -35,4 +35,4 @@ There are three ways to use RVCard in your project:
 	- step 2: Register the binder for a certain layout
    
 # License
-MIT licensed. Please refer to the LICENSE file for detailed information.
+Licensed under the [MIT](LICENSE.txt) License.
