@@ -1,3 +1,7 @@
+<p align="center" >
+  <img src="https://github.com/klarm/KMCard/blob/master/logo.png" width="139" height="90" alt="RVCard" title="RVCard">
+</p>
+
 # 简介
 **RVCard** 是一个轻量级高性能动态UI组件方案，它支持通过编写XML布局构建可复用的UI组件，并且支持UI组件之间的各种灵活组合。在使用方式上，可以通过各种形式灵活嵌入你的现有实现。具体案例请参见demo。
 
