@@ -3,7 +3,7 @@
 </p>
 
 # Introduction
-**RVCard** is a lightweight, high-performance solution for creating dynamic UI components. It supports building reusable UI components by writing XML layouts，and you can aslo build flexible combinations of them. There are various forms of embedding RVCard in your existing code. See the **Demo** and **How to Start** for more details.  
+**RVCard** is a lightweight, high-performance solution for creating dynamic UI components. It supports building reusable UI components by writing XML layoutsand you can aslo build flexible combinations of them. There are various forms of embedding RVCard in your existing code. See the **Demo** and **How to Start** for more details.  
 
 [中文文档](/README_CN.md)
 
