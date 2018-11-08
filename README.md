@@ -35,4 +35,4 @@ There are three ways to use RVCard in your project:
 	- step 2: Register the binder for a certain layout
    
 # License
-Licensed under the [MIT]([MIT](https://github.com/klarm/KMCard/blob/master/LICENSE)) License.
+Licensed under the [MIT](https://github.com/klarm/KMCard/blob/master/LICENSE) License.
